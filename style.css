@@ -1,0 +1,30 @@
+.button1, .button2, .button3 {
+	display: block; /*Sirve para fijar el botón en una posición*/
+	margin-bottom: 10px; /*Espacio libre entre los botones.*/
+	height: 40px; /*Altura de los botones*/
+}
+
+.button1 {
+	width: 100px; /*Ancho*/
+	border-radius: 20px; /*Bordes redondos*/
+	color: #129B9D; /*Color exacto de las letras y el borde (Tengo una web que los encuentra)*/
+	border: 2px solid #129B9D; /*Borde delgado alrededor del botón*/
+	font-weight: 900; /*Ancho de la letra*/
+	background-color: #F5F5F5; /*Color exacto del fondo del botón*/ 
+}
+
+.button2 {
+	width: 40px;
+	background-color: #01D1B2;
+	color: white;
+	border-radius: 50%;
+	border: none; /*Sin bordes*/
+}
+
+.button3 {
+	width: 150px;
+	background-color: #2A78E4;
+	color: white;
+	border: 2px solid black;
+	box-shadow: 3px 3px black; /*Agregar sombra al botón*/
+}
